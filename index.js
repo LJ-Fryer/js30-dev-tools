@@ -70,7 +70,7 @@ console.count("hell?");
 
 // timing - Time it takes to fetch data
 console.time("Fetching data");
-fetch("https://api.github.com/users/wesbos")
+fetch("https://api.github.com/users/LJ-Fryer")
   .then((data) => data.json())
   .then((data) => {
     console.timeEnd("Fetching data");
